@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>גאון הדור- עמוד הבית</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/accessible-myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <link rel="icon" href="img/Hat.png" />
+
+</head>
+
+
+<body>
+    <a id='skip-nav' class='screenreader-text' href='#main-content'>
+        דלג\י לתוכן
+    </a>
+    <div id="content">
+        <logo>
+            <h1> <a href="accessible-index.html"><img id="logo1" src="img/Logo6.png" alt="גאון הדור- עמוד הבית" /></a></h1>
+        </logo>
+        <slogan>
+            כל מה שרציתם לדעת על ההבדלים בין הדורות
+        </slogan>
+        <header>
+
+
+            <div >
+                <nav aria-label="ניווט מרכזי">
+                    <ul>
+                        <li><a href="accessible-index.html" class="active">דף הבית</a></li>
+                        <li class="not-allowed"><a>אלפא</a></li>
+                        <li>
+                            <a href="accessible-Z-Who_are_we_1.html">Z</a>
+                            <ul>
+                                <li><a href="accessible-Z-Who_are_we_1.html">מי אנחנו</a></li>
+                                <li><a href="accessible-TipsZ.html">טיפים</a></li>
+                            </ul>
+                        </li>
+                        <li class="not-allowed"><a>Y</a></li>
+                        <li class="not-allowed"><a>X</a></li>
+                        <li class="not-allowed"><a>בייבי בומרס</a></li>
+                        <li class="not-allowed"><a>דור המייסדים</a></li>
+                        <li class="not-allowed"><a>שילוב דורות</a></li>
+                        <li><a href="accessible-about.html">אודות</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <mainHomePage id="main-content">
+            <section class="slider">
+
+
+                <input type="radio" name="slider" id="s1">
+                <input type="radio" name="slider" id="s2">
+                <input type="radio" name="slider" id="s3">
+                <input type="radio" name="slider" id="s4" checked>
+                <input type="radio" name="slider" id="s5">
+                <input type="radio" name="slider" id="s6">
+                <input type="radio" name="slider" id="s7">
+
+
+                <label for="s1" id="slide1"><img class="imgens" src="img/Alpha.png" alt="דור האלפא גילאי 0-9" /></label>
+                <label for="s2" id="slide2"><a href="accessible-Z-Who_are_we_1.html"><img class="imgens" src="img/Z.png" alt="דור הזד גילאי 10-23" /></a></label>
+                <label for="s3" id="slide3"><img class="imgens" src="img/Y.png" t="דור הווי גילאי 24-39" /></label>
+                <label for="s4" id="slide4"><img class="imgens" src="img/X.png" alt="דור האיקס גילאי 40-54" /></label>
+                <label for="s5" id="slide5"><img class="imgens" src="img/Boomer.png" alt="דור הבייבי בומרס גילאי 55-74" /></label>
+                <label for="s6" id="slide6"><img class="imgens" src="img/Old.png" alt="דור המייסדים גילאי 75-92" /></label>
+                <label for="s7" id="slide7"><img class="imgens" src="img/ALL.png" alt="שילוב בין הדורות גילאי 0-120 " /></label>
+            </section>
+            <div class="CallToAction">
+                <div class="tooltip">
+                    <h1>בחרו דור וגלו עולם</h1>
+                    <span class="tooltiptext">כדי לעבור בין הדורות, לחצו על העיגולים שמתחתיי</span>
+                    <img src="img/arrow.png" alt="לחץ על אחד העיגולים לבחירה בדור" />
+                </div>
+            </div>
+
+
+        </mainHomePage>
+
+        <footer>
+            <a href="index.html" rel="stylesheet"><img class="Access" src="img/Acces.png" /></a>
+            <div id="footerlink1"><a href="accessible-contactUs.html">צור קשר</a></div>
+            <img id="footerhat" src="img/Hat.png" alt="" />
+            <div id="footerlink2"><a href="accessible-SiteMap.html">מפת אתר</a></div>
+        </footer>
+    </div>
+</body>
+</html>
