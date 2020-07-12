@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: 'TsMatka-Bold';
     src: url('../Fonts/TsMatka-Bold.ttf') format('truetype');
 }
@@ -1655,7 +1655,7 @@ main a {
 }
 
     .screenreader-text:focus {
-        color: bisque;
+        color: https://evelyntz.github.io/GeneGenius/index.html;
         display: inline-block;
         height: auto;
         width: auto;
