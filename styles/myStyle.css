@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: 'TsMatka-Bold';
     src: url('../Fonts/TsMatka-Bold.ttf') format('truetype');
 }
@@ -420,15 +420,16 @@ input[type=radio] {
 #firstgrey {
     position: relative;
     float: left;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    padding-right: 800px;
+    padding-bottom: 15px;
+    width: 330.5px;
+    height: 69px;
+    left: 3px;
 }
 
 .firstgrey {
     position: absolute;
-    left: 13%;
-    bottom: 83%;
+    left: 11%;
+    bottom: 87%;
 }
 
     .firstgrey p {
@@ -440,14 +441,17 @@ input[type=radio] {
 
 #secondgrey {
     float: left;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
     padding-right: 800px;
+    width: 330.5px;
+    height: 90px;
+    left: 3px;
 }
 
 .secondgrey {
     position: absolute;
-    bottom: 54%;
-    left: 12%;
+    bottom: 66%;
+    left: 10%;
 }
 
     .secondgrey a {
@@ -460,17 +464,22 @@ input[type=radio] {
 #firstgreen {
     position: relative;
     float: right;
-    padding-bottom: 100px;
-    padding-left: 290px;
-    padding-right: 15px;
+    padding-bottom: 15px;
+    top: -9px;
+
+    
 }
+
+    #firstgreen img {
+        width: 330.5px;
+        height: 85px;
+    }
 
 .firstgreen {
     position: absolute;
-    bottom: 70%;
-    right: 10%;
+    bottom: 42%;
+    right: 20%;
 }
-
 
 /*אנחנו אוהבים למידה עצמאית על ידי עשייה ויצירה*/
 
@@ -479,15 +488,22 @@ input[type=radio] {
     position: relative;
     float: left;
     left: 10px;
-    top: 50px;
+    top: -27px;
+    padding-bottom: 15px;
+    padding-right: 800px;
+    left:3px;
 }
 
+    #thirdgrey img {
+        width: 330.5px;
+        height: 69px;
+    }
 
 .thirdgrey {
     position: absolute;
-    left: 23%;
-    bottom: 8%;
-    padding-bottom: 20px;
+    left: 7%;
+    bottom: 37%;
+    
 }
 
 
@@ -496,48 +512,64 @@ input[type=radio] {
 #secondgreen {
     position: relative;
     float: right;
-    padding-top: 80px;
-    left: 590px;
+    padding-bottom: 15px;
+    top: -42px;
+    left: -34px;
+    right: 16px;
 }
 
+    #secondgreen img {
+        width: 330.5px;
+        height: 69px;
+    }
 
 .secondgreen {
     position: absolute;
-    bottom: 30%;
-    right: 18%;
+    bottom: 50%;
+    right: 21%;
 }
 
 /*אנחנו הדור הראשון שנולד ישר לתוך מציאות טכנולוגית.*/
 
 .fourthgrey {
     position: absolute;
-    left: 9%;
-    bottom: 8%;
-    padding-bottom: 60px;
-    padding-top: 10px;
+    left: 40px;
+    bottom: 37%;
+    width: 254px;
 }
 
 #fourthgrey {
     position: relative;
     float: left;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    top: -77px;
+    padding-bottom: 15px;
     padding-right: 800px;
+    left: 3px;
 }
+
+    #fourthgrey img {
+        width: 330.5px;
+        height: 69px;
+    }
 
 /*ואיך זה מתבטא?*/
 
 #thirdgreen {
     position: relative;
     float: right;
-    padding-top: 50px;
-    left: -20px;
+    top: -97px;
+    padding-bottom: 15px;
 }
+
+    #thirdgreen img {
+        width: 330.5px;
+        height: 69px;
+    }
 
 .thirdgreen {
     position: absolute;
-    bottom: 30%;
-    right: 18%;
+    bottom: 48%;
+    right: 27%;
 }
 
 
@@ -546,18 +578,23 @@ input[type=radio] {
 
 .fifthgrey {
     position: absolute;
-    left: 9%;
-    bottom: 8%;
-    padding-bottom: 60px;
+    left: 10%;
+    bottom: 43%;
 }
 
 #fifthgrey {
     position: relative;
     float: left;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    top: -126px;
+    padding-bottom: 15px;
     padding-right: 800px;
+    left: 3px;
 }
+
+    #fifthgrey img {
+        width: 330.5px;
+        height: 69px;
+    }
 
 
 
@@ -566,14 +603,21 @@ input[type=radio] {
 #fourthgreen {
     position: relative;
     float: right;
-    padding-top: 20px;
-    left: -20px;
+    top: -157px;
+    left: -1px;
+    padding-bottom: 15px;
+    left: 2px;
 }
 
 .fourthgreen {
     position: absolute;
     bottom: 40%;
-    right: 18%;
+    right: 24%;
+}
+
+#fourthgreen img {
+    width: 330.5px;
+    height: 91px;
 }
 
 /*רב החיים שלנו הם אונליין! 
@@ -581,18 +625,23 @@ input[type=radio] {
 
 .sixthgrey {
     position: absolute;
-    left: 9%;
-    bottom: 8%;
-    padding-bottom: 60px;
+    left: 10%;
+    bottom: 44%;
 }
 
 #sixthgrey {
     position: relative;
     float: left;
-    padding-top: 60px;
-    padding-bottom: 50px;
+    top: -189px;
+    padding-bottom: 15px;
     padding-right: 800px;
+    left: 3px;
 }
+
+    #sixthgrey img {
+        width: 330.5px;
+        height: 69px;
+    }
 
 
 /*חברים אונליין? למה זה טוב?*/
@@ -600,14 +649,20 @@ input[type=radio] {
 #fifthgreen {
     position: relative;
     float: right;
-    padding-top: 20px;
-    left: -20px;
+    top: -222px;
+    left: 8px;
+    padding-bottom: 15px;
 }
 
 .fifthgreen {
     position: absolute;
-    bottom: 40%;
-    right: 18%;
+    bottom: 51%;
+    right: 24%;
+}
+
+#fifthgreen img {
+    width: 330.5px;
+    height: 69px;
 }
 
 /*ככה מפתחים קשרים עם אנשים מכל
@@ -615,19 +670,25 @@ input[type=radio] {
 
 .seventhgrey {
     position: absolute;
-    left: 5%;
-    bottom: 5%;
-    padding-bottom: 60px;
+    left: 7%;
+    bottom: 41%;
+    
 }
 
 #seventhgrey {
     position: relative;
     float: left;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    top: -238px;
+    left: 8px;
+    padding-bottom: 15px;
     padding-right: 800px;
+    left: 3px;
 }
 
+    #seventhgrey img {
+        width: 330.5px;
+        height: 69px;
+    }
 
 /*וואו מעניין. מה עוד אפשר לדעת
  על הדור שלך?*/
@@ -635,14 +696,21 @@ input[type=radio] {
 #sixthgreen {
     position: relative;
     float: right;
-    padding-top: 20px;
-    left: -20px;
+    top: -287px;
+    left: 8px;
+    padding-bottom: 15px;
 }
 
 .sixthgreen {
     position: absolute;
-    bottom: 40%;
-    right: 18%;
+    bottom:43%;
+    right: 22%;
+    width: 398px;
+}
+
+#sixthgreen img {
+    width: 330.5px;
+    height: 99px;
 }
 
 /*האמת שיש לי ולכל החברים שלי
@@ -654,16 +722,18 @@ input[type=radio] {
 .eighthgrey {
     position: absolute;
     left: 5%;
-    bottom: 5%;
-    padding-bottom: 60px;
+    bottom: 31%;
+   
 }
 
 #eighthgrey {
     position: relative;
     float: left;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    top: -309px;
+    left: 8px;
+    padding-bottom: 15px;
     padding-right: 800px;
+    left: 3px;
 }
 
     #eighthgrey a {
@@ -671,6 +741,10 @@ input[type=radio] {
         color: blue;
     }
 
+    #eighthgrey img {
+        width: 330.5px;
+        height: 139px;
+    }
 
 
 /* Tips gen z page */
@@ -1557,7 +1631,7 @@ main a {
 }
 
     .screenreader-text:focus {
-        color: bisque;
+        color: white;
         display: inline-block;
         height: auto;
         width: auto;
